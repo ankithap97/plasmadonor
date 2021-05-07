@@ -11,6 +11,6 @@
   </head>
 
   <body>
-    <h1>Plasma Donor</h1>
+    <h1 style="text-align:center;">Plasma Donor</h1>
 </body>
 </html>
