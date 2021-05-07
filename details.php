@@ -8,7 +8,7 @@
   $tested  = $_POST['tested'];
   $date_of_testednegative  = $_POST['date_of_testednegative'];
      
-       $conn=new mysqli('127.0.0.1','root','ankitha123','test');
+       $conn=new mysqli('localhost','root','ankitha123','test');
       if($conn->connect_error)
 {
 die('connection failed :'.$conn->connect_error);
