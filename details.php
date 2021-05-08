@@ -8,7 +8,7 @@
   $tested  = $_POST['tested'];
   $date_of_testednegative  = $_POST['date_of_testednegative'];
      
-       $conn=new mysqli('plasmadonor1.herokuapp.com','root','ankitha123','test');
+       $conn=new mysqli('remotemysql.com',' VHvXUXmbrQ','8PiSRs5UCw',' VHvXUXmbrQ');
       if($conn->connect_error)
 {
 die('connection failed :'.$conn->connect_error);
