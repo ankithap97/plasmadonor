@@ -1,5 +1,5 @@
 <?php
- $conn=new mysqli('plasmadonor1.herokuapp.com','ANKITHA P','ankitha123','test');
+ $conn=new mysqli('remotemysql.com',' VHvXUXmbrQ','8PiSRs5UCw',' VHvXUXmbrQ');
       if($conn->connect_error)
 {
 die('connection failed :'.$conn->connect_error);
